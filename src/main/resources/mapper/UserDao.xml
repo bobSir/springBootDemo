@@ -165,7 +165,6 @@
             `password` = #{password,jdbcType=VARCHAR}
         where id = #{id,jdbcType=INTEGER}
     </update>
-
     <select id="selectAll" resultType="com.bob.firstspringdemo.entity.User">
         select
         <include refid="Base_Column_List"/>
